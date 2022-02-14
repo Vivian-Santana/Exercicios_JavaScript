@@ -1,2 +1,2 @@
-# Exerc-cios_JavaScript
+# Exercicios_JavaScript
 Exercícios simples feitos com JavaScript 
