@@ -1,0 +1,16 @@
+.img{
+    background: url("img1.png") no-repeat;
+    width: 500px;
+    height: 500px;
+    display: block;
+    background-size: contain; /*redimenciona a imagem*/
+}
+
+/*pseudo classe*/
+.img:hover{ /*hover = sobrevoando (quando o mouse passar por cima)*/
+    background-position: 0px 50px;
+}
+
+.img::before{ /*clicar e segurar vai um pouco p a direita*/
+   background-position: 50px 50px;
+}

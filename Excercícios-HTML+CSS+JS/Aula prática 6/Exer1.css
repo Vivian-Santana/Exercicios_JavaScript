@@ -1,0 +1,11 @@
+#botao{
+    background-color: rgb(73, 130, 214);
+}
+
+#botao:hover{
+    background-color: rgb(121, 224, 114);
+}
+
+#botao:active{
+    background-color: rgb(237, 77, 77);
+}

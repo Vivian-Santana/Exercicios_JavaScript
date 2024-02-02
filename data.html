@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data de hoje</title>
+  </head>
+  <body>
+    <p>
+      Em JavaScript, o objeto `document` é um objeto que representa o modelo de
+      documento do HTML atual. Ele fornece uma interface para interagir com a
+      estrutura HTML de uma página da web. O método `write` é usado para
+      escrever texto ou conteúdo na página HTML. Na linha de código
+      `document.write(d.getDate());`, `document` refere-se ao objeto que
+      representa a página HTML atual. O método `write` é usado para adicionar o
+      valor retornado por `d.getDate()` (que é o dia do mês da data `d`) ao
+      conteúdo da página. Em resumo, o código `document.write(d.getDate());`
+      escreve o dia do mês na página HTML atual, onde o método `write` é usado
+      para adicionar conteúdo diretamente ao documento. Tenha em mente que o uso
+      extensivo do `document.write()` pode substituir todo o conteúdo da página,
+      portanto, ele deve ser usado com cautela. Em muitos casos, outras
+      técnicas, como a manipulação do DOM, são preferíveis para adicionar ou
+      modificar conteúdo na página.
+    </p>
+  </body>
+
+  <script>
+    const d = new Date();
+    document.write(d.getDate()); //mostra o numero do dia na página
+  </script>
+</html>

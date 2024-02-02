@@ -1,0 +1,78 @@
+*{
+    background-color: #000000;
+    color:#ffffff;
+    font-size: 15px;
+}
+
+.calculadora{
+    /*: Permite um posicionamento mais preciso.*/
+    position: absolute; 
+
+    /*Define o ponto superior esquerdo da div no meio da tela.*/
+    top: 50%; 
+    left: 50%;
+
+    /*Move a div de volta em 50% de sua largura e altura, alinhando-a perfeitamente no centro.*/
+    transform: translate(-50%, -50%);
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(41, 60, 155);
+    width: 5cm;
+    height: 5cm;
+    border: #000000;
+    border-radius: 5%;
+    border: 2cm;
+    padding: 6%;
+}
+
+.calculadora p{
+    background-color: rgb(41, 60, 155);
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1cm;
+}
+
+input[type='text']{
+    width:5cm;
+    padding:8px;
+    margin-bottom:0.5cm;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+#operacao{
+    width: 5.5cm;
+    border-radius:5px;
+    margin-bottom: 0.cm;
+    color: #ccc;
+    background-color: #000000;
+}
+
+/*muda as core de fundo e das palavras na seleção de operações*/
+select option{
+    color: #ccc;
+    background-color: #000000;
+    font-size: smaller;
+}
+
+#resultado{
+    width:5cm;
+    padding:8px;
+    margin-bottom:0.7cm;
+    border-radius:5px;
+    border:1px solid #ccc;
+    color: #ccc;
+    background-color: #000000;
+}
+
+.alert{
+    background: rgb(214, 78, 78);
+    color:beige;
+    padding: 5px;
+    margin: 5px;
+}
